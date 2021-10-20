@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+  background-color: rgb(41, 39, 39);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#lottery_box{
+  background-color: white;
+  padding: 20px;
+  height: 450px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#lottery_box button{
+  padding: 25px 40px;
+  border-radius: 0px;
+  font-weight: 400;
+  font-family: Merriweather Sans;
+  border: 2.50px solid  rgb(155, 154, 154);
+  background-image: linear-gradient(rgb(235, 231, 231) 20%, rgb(192, 192, 191) 80%);
+}
+
+#lottery_box button:hover{
+  background-image: linear-gradient(rgb(156, 243, 255) 20%, rgb(127, 240, 255) 80%);
+  padding: 25px 40px;
+  border-radius: 0px;
+  border: 2.50px solid lightseagreen;
+}
+h1{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Merriweather sans;
+}
+
+h2{
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Merriweather sans;
+}
+
+p{
+  font-weight: 600;
+}
+
+
+.counters{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:5px;
+  flex-direction: column;
+}
+
+.container{
+ 
+  padding: 5px;
+  display: flex;
+}
+
+.counter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-family: open sans;
+  padding: 5px;
+}
+
+.your-number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-family: open sans;
+  
+}
+
+#alert{
+  width: 350px;
+  height: 155px;
+  background-color: whitesmoke;
+  border: 1.75px solid rgba(10, 218, 190, 0.363);
+  position: absolute;
+  top: 40%;
+  display: none;
+}
+
+#alert h3{
+  text-align: left;
+  top: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: open sans;
+  font-size: 15px;
+
+}
+#alert p{
+  text-align: left;
+  top:20px;
+  padding-left: 10px;
+  font-weight: 200;
+  font-family: open sans;
+  font-size: 12px;
+}
+
+ #alert_button{
+  width: 150px;
+  height: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: lightgrey;
+  border-radius: 0px;
+  border: 0px;
+  font-family: open sans;
+  color:rgba(0, 0, 0, 0.836);
+}
+
+ #alert_button:hover{
+  width: 150px;
+ height: 30px;
+ text-transform: uppercase;
+ position: absolute;
+ bottom: 30px;
+ right: 30px;
+ background-color: lightgrey;
+ border-radius: 0px;
+ border: 0px;
+ text-decoration: none;
+}
+
+
+#alert_x{
+ width: 20px;
+ height: 20px;
+ font-weight: 400;
+ position: absolute;
+ right: 0px;
+ margin: 5px;
+ padding: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ font-family:open sans;
+ background-color: rgba(245, 245, 220, 0);
+}
+
+
+#alert-win{
+  width: 350px;
+  height: 155px;
+  background-color: whitesmoke;
+  border: solid rgba(135, 170, 165, 0.363) 1.75px;
+  position: absolute;
+  top: 40%;
+  display: none;
+}
+
+#alert-win h3{
+  text-align: left;
+  top: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: open sans;
+  font-size: 15px;
+
+}
+#alert-win p{
+  text-align: left;
+  top:20px;
+  padding-left: 10px;
+  font-weight: 200;
+  font-family: open sans;
+  font-size: 12px;
+}
+
+
