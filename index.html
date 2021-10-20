@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href="style.css">
+  <title>Lottery</title>
+</head>
+<body>
+  <div id = "lottery_box">
+    <h1>The JavaScript Lottery</h1>
+    <h2>Click the button to draw a number.</h2>
+    <div class = "counters">
+      <button onclick="updateCount()">Let's Play</button>
+      <div class = "container">
+        <div class = "your-number">Your Number : </div> 
+        <div class = "counter" data-target="1000">0</div> 
+      </div>
+      <p>*Any number in the 1 to 1000 range wins!</p>
+    </div>
+  </div>
+  
+   
+     <div id="alert">
+      <button onclick="closeAlert()" id = "alert_x">x</button>
+      <h3>This site says...</h3>
+      <p>Too bad! You've lost!</p>
+      <button onclick="closeAlert()" id = "alert_button">ok</button>
+    </div> 
+
+    <div id="alert-win">
+      <button onclick="closeAlertWin()" id = "alert_x">x</button>
+      <h3>This site says...</h3>
+      <p>Congrats! You've won</p>
+      <button onclick="closeAlertWin()" id = "alert_button">ok</button>
+    </div>
+  
+    
+    
+
+  
+
+
+
+
+
+  <script src = "lottery_script.js">
+  </script>
+</body>
+</html>
