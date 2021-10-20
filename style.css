@@ -88,7 +88,7 @@ p{
   
 }
 
-#alert{
+#alert-lose{
   width: 350px;
   height: 155px;
   background-color: whitesmoke;
@@ -98,7 +98,7 @@ p{
   display: none;
 }
 
-#alert h3{
+#alert-lose h3{
   text-align: left;
   top: 20px;
   padding-left: 10px;
@@ -108,7 +108,7 @@ p{
   font-size: 15px;
 
 }
-#alert p{
+#alert-lose p{
   text-align: left;
   top:20px;
   padding-left: 10px;
