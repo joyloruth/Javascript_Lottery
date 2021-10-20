@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Palanquin+Dark:wght@700&display=swap');
+
+
+
 
 body{
   background-color: rgb(41, 39, 39);
@@ -15,8 +17,8 @@ body{
 
 #lottery_box{
   background-color: white;
-  padding: 20px;
-  height: 450px;
+  padding: 10px;
+  height: 500px;
   width: 500px;
   display: flex;
   align-items: center;
@@ -27,9 +29,10 @@ body{
   padding: 25px 40px;
   border-radius: 0px;
   font-weight: 400;
+  font-size: 12px;
   font-family: Merriweather Sans;
   border: 2.50px solid  rgb(155, 154, 154);
-  background-image: linear-gradient(rgb(235, 231, 231) 20%, rgb(192, 192, 191) 80%);
+  background-image: linear-gradient(rgb(235, 231, 231) 20%, rgba(192, 192, 191, 0.87) 80%);
 }
 
 #lottery_box button:hover{
@@ -38,21 +41,25 @@ body{
   border-radius: 0px;
   border: 2.50px solid lightseagreen;
 }
+
+
 h1{
   font-size: 20px;
   font-weight: 800;
-  font-family: Merriweather sans;
+  font-family: Palanquin Dark;
 }
 
 h2{
-  padding: 10px;
-  font-size: 18px;
+  
+  font-size: 16px;
   font-weight: 800;
-  font-family: Merriweather sans;
+  font-family: Palanquin Dark;
 }
 
 p{
   font-weight: 600;
+  font-size: 11px;
+  
 }
 
 
@@ -65,18 +72,22 @@ p{
 }
 
 .container{
- 
   padding: 5px;
   display: flex;
+  font-size: 14px;
+  font-weight: 800;
+  flex-direction: row;
+  
 }
 
 .counter{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: merriweather sans;
   font-weight: 800;
-  font-family: open sans;
   padding: 5px;
+  font-size: 12px;
 }
 
 .your-number{
@@ -84,18 +95,20 @@ p{
   align-items: center;
   justify-content: center;
   font-weight: 800;
-  font-family: open sans;
+  font-family: Palanquin Dark;
+  font-size: 12px;
   
 }
 
 #alert-lose{
-  width: 350px;
-  height: 155px;
+  width: 325px;
+  height: 150px;
   background-color: whitesmoke;
-  border: 1.75px solid rgba(10, 218, 190, 0.363);
+  border: solid rgba(126, 199, 228, 0.363) 1.75px;
   position: absolute;
   top: 40%;
   display: none;
+  transition: all 1s;
 }
 
 #alert-lose h3{
@@ -119,7 +132,7 @@ p{
 
  #alert_button{
   width: 150px;
-  height: 30px;
+  height: 25px;
   text-transform: uppercase;
   position: absolute;
   bottom: 20px;
@@ -132,18 +145,11 @@ p{
 }
 
  #alert_button:hover{
-  width: 150px;
- height: 30px;
+ width: 150px;
+ height: 25px;
  text-transform: uppercase;
- position: absolute;
- bottom: 30px;
- right: 30px;
- background-color: lightgrey;
- border-radius: 0px;
- border: 0px;
- text-decoration: none;
+ border: 2px rgba(128, 128, 128, 0.781) solid;
 }
-
 
 #alert_x{
  width: 20px;
@@ -163,13 +169,14 @@ p{
 
 
 #alert-win{
-  width: 350px;
-  height: 155px;
+  width: 325px;
+  height: 150px;
   background-color: whitesmoke;
-  border: solid rgba(135, 170, 165, 0.363) 1.75px;
+  border: solid rgba(126, 199, 228, 0.363) 1.75px;
   position: absolute;
   top: 40%;
   display: none;
+  transition: all .5s;
 }
 
 #alert-win h3{

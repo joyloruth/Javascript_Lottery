@@ -6,7 +6,7 @@ function random(max){
   const speed = 200;
  
   const updateCount = () => {
-    const target = +counter.getAttribute('data-target') * random(100) ;
+    const target = +counter.getAttribute('data-target') * random(30) ;
     const count = +counter.innerText;
     const inc = target/speed;
     
